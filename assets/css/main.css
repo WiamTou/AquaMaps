@@ -3327,3 +3327,9 @@ input, select, textarea {
 			}
 
 		}
+.container {
+    max-width: 1200px; /* ou une autre largeur maximale souhaitée */
+    margin: 0 auto;    /* Centre le contenu horizontalement */
+    padding-left: 20px; /* Ajoute de l'espace à gauche */
+    padding-right: 20px; /* Ajoute de l'espace à droite */
+}
