@@ -18,9 +18,9 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 20px;
-	padding: 20px;
-	border: 20px;
+	margin: 0;
+	padding: 0;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
@@ -3328,8 +3328,8 @@ input, select, textarea {
 
 		}
 .container {
-    max-width: 1200px; /
-    margin: 0 auto;    /
-    padding-left: 20px; /
-    padding-right: 20px; /
+    max-width: 1200px; /* Tu peux ajuster cette valeur selon la largeur souhaitée */
+    margin: 0 auto;    /* Centre le contenu horizontalement */
+    padding-left: 20px; /* Ajoute de l'espace à gauche */
+    padding-right: 20px; /* Ajoute de l'espace à droite */
 }
