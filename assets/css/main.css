@@ -3339,121 +3339,7 @@ input, select, textarea {
     padding-left: 20px; /* Ajoute de l'espace à gauche */
     padding-right: 20px; /* Ajoute de l'espace à droite */
 }
-/* Import de la police Gagalin */
-@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
 
-/* Header */
-#header {
-    padding: 8em 0 0.1em 0;
-}
-
-#header .logo {
-    display: block;
-    border-bottom: 0;
-    color: inherit;
-    font-weight: 900;
-    letter-spacing: 0.35em;
-    margin: 0 0 2.5em 0;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-#header .logo > * {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#header .logo .symbol {
-    margin-right: 0.65em;
-}
-
-#header .logo .symbol img {
-    display: block;
-    width: 8em; /* Double la taille du logo */
-    height: auto; /* Maintient les proportions du logo */
-}
-
-#header .logo .title {
-    font-size: 4em; /* Augmente la taille du titre */
-    font-family: 'Gagalin', cursive; /* Utilise la police Gagalin */
-    font-weight: bold;
-    margin-left: 10px; /* Espace entre le logo et le titre */
-    color: #005b7a; /* Remplace par la couleur principale du logo */
-    text-shadow: 2px 2px 4px #ffffff; /* Ajoute une ombre pour contraster */
-}
-
-/* Import de la police The Seasons */
-@import url('https://fonts.googleapis.com/css2?family=The+Seasons&display=swap');
-
-/* Header */
-#header {
-    padding: 8em 0 0.1em 0;
-}
-
-#header .logo {
-    display: block;
-    border-bottom: 0;
-    color: inherit;
-    font-weight: 900;
-    letter-spacing: 0.35em;
-    margin: 0 0 2.5em 0;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-#header .logo > * {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#header .logo .symbol {
-    margin-right: 0.65em;
-}
-
-#header .logo .symbol img {
-    display: block;
-    width: 8em; /* Double la taille du logo */
-    height: auto; /* Maintient les proportions du logo */
-}
-
-#header .logo .title {
-    font-size: 4em; /* Augmente la taille du titre */
-    font-family: 'The Seasons', cursive; /* Utilise la police The Seasons */
-    font-weight: bold;
-    margin-left: 10px; /* Espace entre le logo et le titre */
-    background: linear-gradient(to right, #00A9CE, #005b7a); /* Dégradé de couleur */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ajoute une légère ombre pour contraster */
-}
-
-/* Dégradé lettre par lettre */
-#header .logo .title span {
-    color: #00A9CE;
-    display: inline-block;
-    background: linear-gradient(to right, #00A9CE, #005b7a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/* Ajustement pour les appareils mobiles */
-@media screen and (max-width: 736px) {
-    #header {
-        padding: 4em 0 0.1em 0;
-    }
-
-    #header .logo .symbol img {
-        width: 6em; /* Taille ajustée pour mobile */
-        height: auto;
-    }
-
-    #header .logo .title {
-        font-size: 3em; /* Taille ajustée pour mobile */
-    }
-}
 /* Import de la police The Seasons */
 @import url('https://fonts.googleapis.com/css2?family=The+Seasons&display=swap');
 
@@ -3585,6 +3471,55 @@ body, html {
 
 .hero {
     background-image: url('AquaMaps.png'); /* Mettez ici l'URL de votre image de fond */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0 0 20px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero .button {
+    background-color: #099fdc;
+    border: none;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .button:hover {
+    background-color: #067eb5;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background: #0e1726;
+}
+
+.hero {
+    background-image: url('background.jpg'); /* Mettez ici l'URL de votre image de fond */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
