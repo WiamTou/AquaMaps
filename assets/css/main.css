@@ -3575,3 +3575,52 @@ h1 {
     margin: 0 0 1em 0;
     letter-spacing: -0.035em;
 }
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background: #0e1726;
+}
+
+.hero {
+    background-image: url('AquaMaps.png'); /* Mettez ici l'URL de votre image de fond */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0 0 20px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero .button {
+    background-color: #099fdc;
+    border: none;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .button:hover {
+    background-color: #067eb5;
+}
