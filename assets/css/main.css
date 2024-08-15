@@ -3501,8 +3501,8 @@ input, select, textarea {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ajoute une légère ombre pour contraster */
 }
 
-/* Import de la police Montserrat */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+/* Import de la police Source Sans Pro */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 
 /* Header */
 #header {
@@ -3538,7 +3538,7 @@ input, select, textarea {
 
 #header .logo .title {
     font-size: 4em; /* Augmente la taille du titre */
-    font-family: 'Montserrat', sans-serif; /* Utilise la police Montserrat */
+    font-family: 'Source Sans Pro', sans-serif; /* Utilise la même police que "Bienvenue sur AquaMaps" */
     font-weight: bold;
     margin-left: 10px; /* Espace entre le logo et le titre */
     background: linear-gradient(to right, #033d6b, #066fa4, #099fdc); /* Dégradé de couleur */
@@ -3547,49 +3547,6 @@ input, select, textarea {
     display: inline-block;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ajoute une légère ombre pour contraster */
 }
-
-/* Dégradé lettre par lettre */
-#header .logo .title span {
-    color: #099fdc;
-    display: inline-block;
-    background: linear-gradient(to right, #033d6b, #066fa4, #099fdc); /* Dégradé de couleur */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/* Ajustement pour les appareils mobiles */
-@media screen and (max-width: 736px) {
-    #header {
-        padding: 4em 0 0.1em 0;
-    }
-
-    #header .logo .symbol img {
-        width: 6em; /* Taille ajustée pour mobile */
-        height: auto;
-    }
-
-    #header .logo .title {
-        font-size: 3em; /* Taille ajustée pour mobile */
-    }
-}
-
-
-/* Ajustement pour les appareils mobiles */
-@media screen and (max-width: 736px) {
-    #header {
-        padding: 4em 0 0.1em 0;
-    }
-
-    #header .logo .symbol img {
-        width: 6em; /* Taille ajustée pour mobile */
-        height: auto;
-    }
-
-    #header .logo .title {
-        font-size: 3em; /* Taille ajustée pour mobile */
-    }
-}
-
 
 /* Ajustement pour les appareils mobiles */
 @media screen and (max-width: 736px) {
