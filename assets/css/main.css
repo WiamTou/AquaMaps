@@ -3677,4 +3677,20 @@ body, html {
 .hero .button:hover {
     background-color: #067eb5;
 }
+body {
+    background-color: #ffffff; /* Fond blanc */
+    color: #000000; /* Couleur du texte noire */
+}
+
+header {
+    background-color: #ffffff; /* Fond blanc pour l'en-tête */
+}
+
+main {
+    background-color: #ffffff; /* Fond blanc pour la section principale */
+}
+
+footer {
+    background-color: #f4f4f4; /* Fond gris clair pour le pied de page */
+}
 
