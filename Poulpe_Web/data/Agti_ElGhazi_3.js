@@ -1,1 +1,0 @@
-var json_Agti_ElGhazi_3 = {"type":"FeatureCollection","name":"Agti_ElGhazi_3","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":1.0,"Nom":"Agti El Ghazi","latitude":26.38329,"longitude":-14.20193},"geometry":{"type":"Point","coordinates":[-14.20193,26.38329]}}]}
