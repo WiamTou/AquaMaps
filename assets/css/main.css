@@ -3693,4 +3693,14 @@ main {
 footer {
     background-color: #f4f4f4; /* Fond gris clair pour le pied de page */
 }
+.icons .icon {
+    font-size: 24px; /* Taille des icônes */
+    color: #333;     /* Couleur par défaut */
+    margin: 0 10px;  /* Espacement entre les icônes */
+    text-decoration: none;
+}
+
+.icons .icon:hover {
+    color: #1da1f2;  /* Change la couleur lors du survol (par exemple, pour Twitter) */
+}
 
